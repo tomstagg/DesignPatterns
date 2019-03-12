@@ -20,6 +20,11 @@ namespace ObserverPattern
             Display();
         }
 
+        public void PullUpdate()
+        {
+
+        }
+
         public void Display()
         {
             Console.WriteLine($"Current conditions: {_temperature} C and humdity {_humidity}");
